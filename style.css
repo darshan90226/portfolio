@@ -175,3 +175,23 @@ footer {
   background: #fff;
   color: #0d1117;
 }
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+a:hover {
+  color: #00d4ff;
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+}
