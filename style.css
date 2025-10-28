@@ -121,3 +121,57 @@ footer {
 .top-btn:hover {
   background: #0097a7;
 }
+#contact {
+  text-align: center;
+  padding: 40px 0;
+  background: #0d1117;
+  color: #fff;
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background: #fff;
+  color: #0d1117;
+}
+#contact {
+  text-align: center;
+  padding: 40px 0;
+  background: #0d1117;
+  color: #fff;
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background: #fff;
+  color: #0d1117;
+}
