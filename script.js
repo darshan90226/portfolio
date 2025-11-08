@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Back to Top button (optional)
+// Back to Top button
 const topButton = document.createElement('button');
 topButton.textContent = '↑';
 topButton.className = 'top-btn';
