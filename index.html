@@ -1,5 +1,3 @@
-index.html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,21 +5,11 @@ index.html
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Darshan | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- ===== NAVBAR ===== -->
-  <header>
-    <h1>Darshan Thakare</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <!-- ===== HERO SECTION ===== -->
-  <section class="hero">
+<section class="hero">
     <h2>Web Developer & Data Science Enthusiast</h2>
     <p>I build websites and data-driven apps that make ideas come alive.</p>
     <a href="#projects" class="btn">View My Work</a>
@@ -31,8 +19,7 @@ index.html
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I'm a B.Sc. Computer Science student passionate about web development and data science.
-      I enjoy solving problems through code — whether it's building web apps or analyzing data for insights.
+      Thanks for visiting my portfolio! I'm Darshan, a B.Sc. Computer Science student passionate about web development and data science. I enjoy solving problems through code — whether it's building web apps or analyzing data for insights.
     </p>
     <div class="skills">
       <p><strong>Skills:</strong> HTML, CSS, JavaScript, Python, Pandas, SQL, Git</p>
@@ -43,59 +30,46 @@ index.html
   <section id="projects">
     <h2>Projects</h2>
 
-    <div class="project">
-      <h3>Portfolio Website</h3>
+    <div class="project-card">
+      <h3>Portfolio Website , Password Genrator</h3>
       <p>My personal website built using HTML, CSS, and JS.</p>
-      <a href="#" target="_blank">GitHub</a> | 
-      <a href="#" target="_blank">Live Demo</a>
-    </div>
-
-    <div class="project">
-      <h3>Netflix Data Analysis</h3>
-      <p>Exploratory data analysis using Python, Pandas, and Matplotlib.</p>
-      <a href="#" target="_blank">GitHub</a>
-    </div>
-
-    <div class="project">
-      <h3>Weather Web App</h3>
-      <p>Displays live weather info using OpenWeather API and JavaScript.</p>
-      <a href="#" target="_blank">GitHub</a> | 
-      <a href="#" target="_blank">Live Demo</a>
-    </div>
-  </section>
+      <a href="https://github.com/darshan90226" target="_blank">GitHub</a>
+</div>
+</section>
 
   <!-- ===== CONTACT ===== -->
-   <section id="contact">
-  <h2>Contact Me</h2>
-  <p>Let’s connect 👇</p>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Let’s connect 👇</p>
 
-  <div class="social-links">
-    <a href="mailto:darshantha2004@gmail.com" target="_blank">📧 Email</a>
-    <a href="https://www.linkedin.com/in/darshan-thakare-b13a6225a" target="_blank">💼 LinkedIn</a>
-    <a href="https://x.com/Darshan27037383" target="_blank">🐦 X (Twitter)</a>
-    <a href="https://github.com/darshan90226" target="_blank">💻 GitHub</a>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-  </div>
-</section>
-  <h1>I’m <span id="typed"></span></h1>
+    <div class="social-links">
+      <a href="darshantha2004@gmail.com" target="_blank">📧 Email</a>
+      <a href="https://www.linkedin.com/in/darshan-thakare-b13a6225a" target="_blank">💼 LinkedIn</a>
+      <a href="https://x.com/Darshan27037383" target="_blank">🐦 X (Twitter)</a>
+      <a href="https://github.com/darshan90226" target="_blank">💻 GitHub</a>
+    </div>
+  </section>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
-  new Typed("#typed", {
-    strings: ["Darshan Thakare", "a Developer", "a Learner"],
-    typeSpeed: 60,
-    backSpeed: 40,
-    loop: true
-  });
-</script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script>
-  ScrollReveal().reveal('.section', { delay: 200, distance: '50px', origin: 'bottom' });
-</script>
+  <script>
+    new Typed("#typed", {
+      strings: ["Darshan Thakare", "a Developer", "a Learner"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+  </script>
+
+  <!-- ===== SCROLL REVEAL ===== -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('section', { delay: 200, distance: '50px', origin: 'bottom' });
+  </script>
+
+  <!-- ===== BACK TO TOP + SMOOTH SCROLL ===== -->
+  <script src="script.js"></script>
 
   <footer>
     <p>© 2025 Darshan Thakare. All rights reserved.</p>
   </footer>
-  <script src="script.js"></script>
 </body>
 </html>
